@@ -1,0 +1,10 @@
+OpenCV, numpy, python
+
+cd 4393
+go run runner.go (folder)
+
+
+if libraries are failing to compile for new projects, change the dockerfile and
+./updatedocker.sh test
+or alternatively test the folder you are working with:
+./updatedocker.sh (folder)
