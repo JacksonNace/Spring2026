@@ -1,0 +1,3 @@
+flip an image horizontally or vertically
+
+then chroma key the image?
