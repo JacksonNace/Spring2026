@@ -1,0 +1,11 @@
+call wait = kill off child processes
+fork() is needed to create an additional thread
+create a struct for passing data around for what reason?
+
+
+
+thread interference? -
+dereference pointer?
+need to review ptrs for threads
+
+later we will work on synchorinization methods
