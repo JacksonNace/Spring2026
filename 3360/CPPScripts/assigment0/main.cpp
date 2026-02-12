@@ -1,3 +1,15 @@
+// Complete the C++ template file presented below to write a multithreaded program to transform numbers from decimal to binary. The input for the program is a list of n positive integer values. You must complete the following tasks:
+// Create n child threads. Each child thread will receive a value from the input numbers.
+// Write the child thread function that receives the positive integer and the location to store the binary number (std::string).
+// Make sure the parent thread waits for all child threads to end before printing the output.
+// Notes:
+
+// You can safely assume that the input is always valid.
+// Use the comments in the provided template file to complete your solution.
+// Not using POSIX threads will translate into a penalty of 100%.
+
+
+
 #include <pthread.h>
 #include <iostream>
 #include <string>
